@@ -15,7 +15,7 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def bot_tele(text):
     # Create application
     application = (
-        Application.builder().token(getenv("TOKEN")).build()
+        Application.builder().token(getenv("7602570268:AAHHy4q39BLL2iMiJTwC9ff8UEgmudZMr0o")).build()
     )
 
     # Add handlers
